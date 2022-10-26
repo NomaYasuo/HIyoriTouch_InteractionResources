@@ -52,17 +52,19 @@ export class MyCanvas {
             // width: 300,
             // height:300,//test
 
-            // width:modelPosition.boxWidth,
-            // height:modelPosition.boxHeight,
+            width:modelPosition.boxWidth,
+            height:modelPosition.boxHeight,
         
-            width: 50,
-            height: 500,
+            // width: 500,
+            // height: 500,
             view: document.getElementById("myCanvas") as HTMLCanvasElement,
             backgroundColor: debug === true ? 0x000099 : void 0,
             resolution: window.devicePixelRatio || 1,
             //autoDensity: true,
             transparent: debug === true ? false : true, //http://runstant.com/pentamania/projects/82dc0e31
         };
+        console.log("width",modelPosition.boxWidth);
+        console.log("height",modelPosition.boxHeight);
         this.pixiApp = new PIXI.Application(pixiOptions);
         //const uxStage = new PIXI.Stage
 
@@ -83,6 +85,7 @@ export class MyCanvas {
         } else {
             this.voicevoxClient = null;
         }
+        
     }
 
     //サーバー接続をテストする
