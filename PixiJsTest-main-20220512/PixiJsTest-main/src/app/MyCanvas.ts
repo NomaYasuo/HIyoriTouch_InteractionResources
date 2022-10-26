@@ -186,7 +186,7 @@ export class MyCanvas {
         this.hiyori.onMotionFinished((currentGroup: string, currentIndex: number) => {
             console.log(`「${currentGroup}」グループの、「${currentIndex}」番目のモーションが終了`);
             //HiyoriTouch内、Estimateのアイテム見せでアイテムを非表示にする
-            if($(".item").length){
+            if($(".item").length || $(".estimate_item").length){
                 if((currentGroup == "Dislike")||(currentGroup == "Like")){
                     $(".item").css("display","none");
                     $("#EstimateAnimationFlag").html("1");
