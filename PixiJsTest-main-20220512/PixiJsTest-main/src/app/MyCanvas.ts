@@ -51,6 +51,8 @@ export class MyCanvas {
         const pixiOptions: IApplicationOptions = {
             // width: 300,
             // height:300,//test
+            width:modelPosition.boxWidth,
+            height:modelPosition.boxHeight,
         
             // width: 500,
             // height: 500,
