@@ -55,7 +55,7 @@ export class MyCanvas {
             // width:modelPosition.boxWidth,
             // height:modelPosition.boxHeight,
         
-            width: 500,
+            width: 50,
             height: 500,
             view: document.getElementById("myCanvas") as HTMLCanvasElement,
             backgroundColor: debug === true ? 0x000099 : void 0,
