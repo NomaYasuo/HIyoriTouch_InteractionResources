@@ -51,11 +51,12 @@ export class MyCanvas {
         const pixiOptions: IApplicationOptions = {
             // width: 300,
             // height:300,//test
-            width:modelPosition.boxWidth,
-            height:modelPosition.boxHeight,
+
+            // width:modelPosition.boxWidth,
+            // height:modelPosition.boxHeight,
         
-            // width: 500,
-            // height: 500,
+            width: 500,
+            height: 500,
             view: document.getElementById("myCanvas") as HTMLCanvasElement,
             backgroundColor: debug === true ? 0x000099 : void 0,
             resolution: window.devicePixelRatio || 1,
