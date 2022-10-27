@@ -49,8 +49,8 @@ export class MyCanvas {
         //アプリ作成
         //オプション　https://pixijs.download/release/docs/PIXI.Application.html
         const pixiOptions: IApplicationOptions = {
-            width: 300,
-            height:250,//test
+            width: 700,
+            height:700,//test
 
             // width:modelPosition.boxWidth,
             // height:modelPosition.boxHeight,
@@ -110,8 +110,8 @@ export class MyCanvas {
         hiyoriModel.pivot.set(this.hiyori.getWidth() / 2, this.hiyori.getHeight() / 2);
         // hiyoriModel.x = 500;
         // hiyoriModel.y = 500;
-        hiyoriModel.x = 700;
-        hiyoriModel.y = 700;
+        hiyoriModel.x = 250;
+        hiyoriModel.y = 250;
         //hiyoriModel.angle = 45;
         //hiyoriModel.scale.set(1.25, 1.25);
         // const dai = new PIXI.Graphics();
