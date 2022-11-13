@@ -49,7 +49,7 @@ export class MyCanvas {
         //アプリ作成
         //オプション　https://pixijs.download/release/docs/PIXI.Application.html
         const pixiOptions: IApplicationOptions = {
-            width: 250,
+            width: 500,
             height:250,//test
 
             // width:modelPosition.boxWidth,
